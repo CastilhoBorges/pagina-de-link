@@ -1,0 +1,66 @@
+
+:root{
+    /*====== CORES ======*/
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+
+    /*====== TIPOGRAFIA ======*/
+    --body-copy: 14px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+body {
+    background-color: var(--off-black);
+}
+
+.sec_principal {
+    background-color: var(--dark-grey);
+    width: auto;
+    height: 500px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.name {
+    font-weight: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+.locate {
+    font-weight: normal;
+    text-align: center;
+    color: var(--green);
+    padding-top: 8px;
+}
+
+.text {
+    text-align: center;
+    color: var(--white);
+    padding: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--grey);
+    color: var(--white);
+    height: 10px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.links:hover {
+    background-color: var(--green);
+    color: var(--grey);
+}
